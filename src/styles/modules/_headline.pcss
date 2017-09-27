@@ -4,17 +4,30 @@
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-}
 
-.headline--small {
-  max-width: 738px;
-  margin: 0 auto;
-  margin-bottom: 45px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
+  &--small {
+    max-width: 738px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
 
-  @mixin atMedium {
-    margin-bottom: 90px;
+    @mixin atMedium {
+      margin-bottom: 90px;
+    }
+
+    &-subscribe-margin {
+      margin-bottom: 42px;
+    }
+  }
+
+  &--yellow {
+    color: $yellow;
+  }
+
+  &--grey {
+    color: $grey;
   }
 }
+
