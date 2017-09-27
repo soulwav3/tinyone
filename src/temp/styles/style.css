@@ -542,10 +542,13 @@ body {
 @media (min-width: 1010px) {
 
 .features-item {
-      width: 32.61%;
-      padding-right: 20px;
+      width: 31.21%;
+      margin-right: 20px;
       padding-bottom: 53px
   }
+      .features-item:nth-child(3n) {
+        margin-right: 0;
+      }
   }
 
 .features-item__icon {
