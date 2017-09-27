@@ -1,0 +1,47 @@
+.site-footer {
+  background-color: $black;
+  padding-bottom: 138px;
+
+  &__links {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    @mixin clearfix;
+
+    @mixin atMedium {
+      margin-top: 0;
+      text-align: left;
+    }
+
+    @mixin atLarge {
+      float: left;
+      margin-left: auto;
+    }
+  }
+
+  &__link-group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2.2%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @mixin atMedium {
+      margin-right: 8.2%;
+    }
+
+    @mixin atLarge {
+      margin-right: 91px;
+    }
+  }
+
+  &__link {
+    line-height: 30px;
+    color: white;
+    @mixin atMedium {
+      line-height: 20px;
+    }
+  }
+}

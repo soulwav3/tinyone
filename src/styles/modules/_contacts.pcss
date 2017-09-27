@@ -1,0 +1,20 @@
+.contacts {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  line-height: 20px;
+
+  &__email, &__tel {
+    color: $yellow;
+    &:visited {
+      color: color($(yellow) blackness(+50%));
+    }
+  }
+
+  @mixin atMedium {
+    display: inline-block;
+    margin-right: 16.7%;
+    float: left;
+    text-align: left;
+  }
+}

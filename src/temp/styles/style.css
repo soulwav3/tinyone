@@ -465,6 +465,7 @@ body {
 }
 
 .wrapper {
+  vertical-align: top;
   max-width: 940px;
   padding: 0 10px;
   margin: 0 auto;
@@ -487,17 +488,10 @@ body {
 .headline--small {
     max-width: 738px;
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 90px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-  }
-
-@media (min-width: 800px) {
-
-.headline--small {
-      margin-bottom: 90px
-  }
   }
 
 .headline--small-subscribe-margin {
@@ -716,3 +710,97 @@ body {
       left: 1px;
       font-size: 34px;
     }
+
+.site-footer {
+  background-color: #010101;
+  padding-bottom: 138px;
+}
+
+.site-footer__links {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.site-footer__links::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer__links {
+      margin-top: 0;
+      text-align: left
+  }
+  }
+
+@media (min-width: 1010px) {
+
+.site-footer__links {
+      float: left;
+      margin-left: auto
+  }
+  }
+
+.site-footer__link-group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2.2%;
+  }
+
+.site-footer__link-group:last-child {
+      margin-right: 0;
+    }
+
+@media (min-width: 800px) {
+
+.site-footer__link-group {
+      margin-right: 8.2%
+  }
+  }
+
+@media (min-width: 1010px) {
+
+.site-footer__link-group {
+      margin-right: 91px
+  }
+  }
+
+.site-footer__link {
+    line-height: 30px;
+    color: white;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer__link {
+      line-height: 20px
+  }
+  }
+
+.contacts {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.contacts__email, .contacts__tel {
+    color: #fcdb00;
+  }
+
+.contacts__email:visited, .contacts__tel:visited {
+      color: rgb(125, 108, 0);
+    }
+
+@media (min-width: 800px) {
+
+.contacts {
+    display: inline-block;
+    margin-right: 16.7%;
+    float: left;
+    text-align: left
+}
+  }
