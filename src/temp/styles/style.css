@@ -1065,7 +1065,7 @@ body {
   }
 
 .contacts__email:visited, .contacts__tel:visited {
-      color: rgb(125, 108, 0);
+      color: rgb(128, 110, 0);
     }
 
 @media (min-width: 800px) {
@@ -1143,7 +1143,7 @@ body {
     }
 
 .site-header__nav a:hover {
-        opacity: 0.5;
+        opacity: 0.6;
       }
 
 @media (min-width: 800px) {
