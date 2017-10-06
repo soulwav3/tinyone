@@ -722,13 +722,10 @@ balanced-match@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.1.0.tgz#b504bd05869b39259dd0c5efc35d843176dccc4a"
 
-<<<<<<< HEAD
 balanced-match@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
-=======
->>>>>>> subscribe
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -1222,7 +1219,6 @@ color@^0.11.0:
     color-convert "^1.3.0"
     color-string "^0.3.0"
 
-<<<<<<< HEAD
 colormin@^1.0.5:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colormin/-/colormin-1.1.2.tgz#ea2f7420a72b96881a38aae59ec124a6f7298133"
@@ -1235,8 +1231,6 @@ colors@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
-=======
->>>>>>> subscribe
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.5.tgz#938370a57b4a51dea2c77c15d5c5fdf895164009"
@@ -1405,7 +1399,6 @@ cryptiles@2.x.x:
   dependencies:
     boom "2.x.x"
 
-<<<<<<< HEAD
 crypto-browserify@^3.11.0:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-3.11.1.tgz#948945efc6757a400d6e5e5af47194d10064279f"
@@ -1422,12 +1415,12 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
 
 css-color-function@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/css-color-function/-/css-color-function-1.3.0.tgz#72c767baf978f01b8a8a94f42f17ba5d22a776fc"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/css-color-function/-/css-color-function-1.3.2.tgz#4ba3e892fee9794644e6b0e1fd1df7811cd75502"
   dependencies:
     balanced-match "0.1.0"
     color "^0.11.0"
-    debug "~0.7.4"
+    debug "^3.1.0"
     rgb "~0.1.0"
 
 css-color-names@0.0.4:
@@ -1490,17 +1483,6 @@ d@1:
   dependencies:
     es5-ext "^0.10.9"
 
-=======
-css-color-function@^1.3.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/css-color-function/-/css-color-function-1.3.2.tgz#4ba3e892fee9794644e6b0e1fd1df7811cd75502"
-  dependencies:
-    balanced-match "0.1.0"
-    color "^0.11.0"
-    debug "^3.1.0"
-    rgb "~0.1.0"
-
->>>>>>> subscribe
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1545,9 +1527,11 @@ debug@^2.2.0, debug@^2.6.8:
   dependencies:
     ms "2.0.0"
 
-debug@~0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-0.7.4.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
+debug@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  dependencies:
+    ms "2.0.0"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -4240,7 +4224,6 @@ portscanner@2.1.1:
     async "1.5.2"
     is-number-like "^1.0.3"
 
-<<<<<<< HEAD
 postcss-calc@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-5.3.1.tgz#77bae7ca928ad85716e2fda42f261bf7c1d65b5e"
@@ -4249,8 +4232,6 @@ postcss-calc@^5.2.0:
     postcss-message-helpers "^2.0.0"
     reduce-css-calc "^1.2.6"
 
-=======
->>>>>>> subscribe
 postcss-color-function@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/postcss-color-function/-/postcss-color-function-4.0.0.tgz#7e0106f4f6a1ecb1ad5b3a8553ace5e828aae187"
@@ -4260,7 +4241,6 @@ postcss-color-function@^4.0.0:
     postcss-message-helpers "^2.0.0"
     postcss-value-parser "^3.3.0"
 
-<<<<<<< HEAD
 postcss-colormin@^2.1.8:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-2.2.2.tgz#6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b"
@@ -4314,8 +4294,6 @@ postcss-filter-plugins@^2.0.0:
     postcss "^5.0.4"
     uniqid "^4.0.0"
 
-=======
->>>>>>> subscribe
 postcss-hexrgba@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-1.0.0.tgz#b2ab6289221ddc7af400aae11d8c4ce8adffdd85"
@@ -4361,7 +4339,6 @@ postcss-load-plugins@^2.3.0:
     cosmiconfig "^2.1.1"
     object-assign "^4.1.0"
 
-<<<<<<< HEAD
 postcss-merge-idents@^2.1.5:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/postcss-merge-idents/-/postcss-merge-idents-2.1.7.tgz#4c5530313c08e1d5b3bbf3d2bbc747e278eea270"
@@ -4386,13 +4363,10 @@ postcss-merge-rules@^2.0.3:
     postcss-selector-parser "^2.2.2"
     vendors "^1.0.0"
 
-=======
->>>>>>> subscribe
 postcss-message-helpers@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/postcss-message-helpers/-/postcss-message-helpers-2.0.0.tgz#a4f2f4fab6e4fe002f0aed000478cdf52f9ba60e"
 
-<<<<<<< HEAD
 postcss-minify-font-values@^1.0.2:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/postcss-minify-font-values/-/postcss-minify-font-values-1.0.5.tgz#4b58edb56641eba7c8474ab3526cafd7bbdecb69"
@@ -4426,8 +4400,6 @@ postcss-minify-selectors@^2.0.4:
     postcss "^5.0.14"
     postcss-selector-parser "^2.0.0"
 
-=======
->>>>>>> subscribe
 postcss-mixins@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-6.1.0.tgz#a7db09c34c3bfdf0d52cfb822abf2e574e6bf86b"
@@ -4502,7 +4474,6 @@ postcss-simple-vars@^4.1.0:
   dependencies:
     postcss "^6.0.9"
 
-<<<<<<< HEAD
 postcss-svgo@^2.1.1:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-2.1.6.tgz#b6df18aa613b666e133f08adb5219c2684ac108d"
@@ -4521,9 +4492,6 @@ postcss-unique-selectors@^2.0.2:
     uniqs "^2.0.0"
 
 postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^3.1.1, postcss-value-parser@^3.1.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
-=======
-postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
->>>>>>> subscribe
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
@@ -4905,7 +4873,6 @@ resp-modifier@6.0.2:
     debug "^2.2.0"
     minimatch "^3.0.2"
 
-<<<<<<< HEAD
 rev-hash@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/rev-hash/-/rev-hash-2.0.0.tgz#7720a236ed0c258df3e64bec03ec048b05b924c4"
@@ -4916,13 +4883,10 @@ rev-path@^1.0.0:
   dependencies:
     modify-filename "^1.0.0"
 
-=======
->>>>>>> subscribe
 rgb@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/rgb/-/rgb-0.1.0.tgz#be27b291e8feffeac1bd99729721bfa40fc037b5"
 
-<<<<<<< HEAD
 right-align@^0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/right-align/-/right-align-0.1.3.tgz#61339b722fe6a3515689210d24e14c96148613ef"
@@ -4930,9 +4894,6 @@ right-align@^0.1.1:
     align-text "^0.1.1"
 
 rimraf@2, rimraf@^2.2.6, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
-=======
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
->>>>>>> subscribe
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
