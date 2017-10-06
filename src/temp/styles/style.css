@@ -647,7 +647,26 @@ body {
       background-color: #fcdb00;
       border: none;
       border-radius: 6px;
+      cursor: pointer;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
     }
+
+.subscribe-form__submit:hover {
+        background-color: rgb(217, 188, 0);
+      }
+
+.subscribe-form__submit:active {
+
+        background-color: rgb(217, 188, 0);
+        -webkit-box-shadow: inset 0 -4px 0 0 rgb(128, 110, 0);
+                box-shadow: inset 0 -4px 0 0 rgb(128, 110, 0);
+      }
+
+.subscribe-form__submit:active span {
+          position: relative;
+          top: -2px;
+        }
 
 @media (min-width: 530px) {
 
@@ -679,7 +698,13 @@ body {
     background-color: #fcdb00;
     border-radius: 6px;
     overflow: hidden;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
   }
+
+.social-links__link:hover {
+      opacity: 0.6;
+    }
 
 .social-links__link:last-child {
       margin-right: 0;

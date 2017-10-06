@@ -47,6 +47,22 @@
       background-color: $yellow;
       border: none;
       border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: color($yellow blackness(15%));
+      }
+
+      &:active {
+        span {
+          position: relative;
+          top: -2px;
+        }
+
+        background-color: color($yellow blackness(15%));
+        box-shadow: inset 0 -4px 0 0 color($yellow blackness(50%));
+      }
 
       @mixin atSmall {
         width: 16.931499%
