@@ -1,0 +1,148 @@
+.animate {
+  transition: transform 0.3s ease-out;
+}
+
+.slider {
+  position: relative;
+  padding-bottom: 107px;
+  margin-bottom: 110px;
+  background-color: $yellow;
+  overflow: hidden;
+
+  @mixin atSmall {
+    padding-bottom: 107px;
+  }
+
+  @mixin atMedium {
+    padding-bottom: 107px;
+  }
+
+  &__labels {
+    position: absolute;
+    font-size: 0;
+    left: 50%;
+    bottom: 49px;
+    transform: translateX(-50%);
+  }
+
+  &__label {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    background-color: white;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--active {
+      opacity: 1;
+    }
+  }
+
+  &__container {
+    position: relative;
+    width: 300%;
+    @mixin clearfix;
+  }
+
+  &__slide {
+    float: left;
+    width: 33.33%;
+    max-width: 940px;
+    @mixin clearfix;
+  }
+
+  &__slide-text {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* @media screen and (orientation: landscape) {
+      padding-top: 70px;
+    } */
+
+    @mixin atSmall {
+      padding-top: 70px;
+    }
+    @mixin atMedium {
+      padding-right: 0;
+    }
+  }
+
+  &__slide-desc {
+    max-width: 381px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+
+    @mixin atMedium {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+
+  &__slide-img {
+    display: none;
+
+    @mixin atMedium {
+      display: block;
+      position: absolute;
+      max-width: 100%;
+      top: 80px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      opacity: 0.1;
+      padding-bottom: 107px;
+    }
+
+
+    @mixin atMedium {
+      position: static;
+      display: block;
+      padding-bottom: 0;
+      margin-left: auto;
+      margin-right: 43px;
+      opacity: 1;
+    }
+  }
+
+  &__dl-links {
+    padding-top: 20px;
+    text-align: center;
+
+    @mixin atMedium {
+      text-align: left;
+    }
+  }
+
+  &__app-dl-btn {
+    font-size: 42px;
+    margin-right: 32px;
+    color: $black;
+    transition: color 0.3s;
+
+    &:hover {
+      color: rgba($black, 0.4);
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    span {
+      &::before {
+        margin: 0;
+      }
+    }
+  }
+
+}

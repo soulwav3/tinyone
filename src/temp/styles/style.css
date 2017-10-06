@@ -477,6 +477,38 @@ body {
     clear: both;
   }
 
+.wrapper--no-padding {
+    padding: 0;
+  }
+
+.wrapper--overflow-hide {
+    overflow: hidden;
+  }
+
+/*   @mixin atSmall {
+    &--left {
+      float: left;
+      width: 70%;
+    }
+
+    &--right {
+      float: right;
+      width: 30%;
+    }
+  } */
+
+@media (min-width: 800px) {
+    .col--left {
+      float: left;
+      width: 45%;
+    }
+
+    .col--right {
+      float: right;
+      width: 55%;
+    }
+  }
+
 .headline {
   margin-top: 0;
   margin-bottom: 16px;
@@ -504,6 +536,29 @@ body {
 
 .headline--grey {
     color: #898989;
+  }
+
+@media (min-width: 800px) {
+
+.headline--left {
+      text-align: left
+  }
+  }
+
+.headline--shrinked {
+    max-width: 309px
+  }
+
+@media (min-width: 800px) {
+
+.headline--no-center {
+      margin-left: 0;
+      margin-right: 0
+  }
+  }
+
+.headline--smaller-b-margin {
+    margin-bottom: 22px;
   }
 
 .features {
@@ -586,6 +641,196 @@ body {
     line-height: 20px;
     color: #898989;
   }
+
+.animate {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.slider {
+  position: relative;
+  padding-bottom: 107px;
+  margin-bottom: 110px;
+  background-color: #fcdb00;
+  overflow: hidden;
+
+}
+
+@media (min-width: 530px) {
+
+.slider {
+    padding-bottom: 107px
+
+}
+  }
+
+@media (min-width: 800px) {
+
+.slider {
+    padding-bottom: 107px
+
+}
+  }
+
+.slider__labels {
+    position: absolute;
+    font-size: 0;
+    left: 50%;
+    bottom: 49px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+.slider__label {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+.slider__label:last-child {
+      margin-right: 0;
+    }
+
+.slider__label--active {
+      opacity: 1;
+    }
+
+.slider__container {
+    position: relative;
+    width: 300%;
+  }
+
+.slider__container::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+.slider__slide {
+    float: left;
+    width: 33.33%;
+    max-width: 940px;
+  }
+
+.slider__slide::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+.slider__slide-text {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+/* @media screen and (orientation: landscape) {
+      padding-top: 70px;
+    } */
+
+@media (min-width: 530px) {
+
+.slider__slide-text {
+      padding-top: 70px
+  }
+  }
+
+@media (min-width: 800px) {
+
+.slider__slide-text {
+      padding-right: 0
+  }
+  }
+
+.slider__slide-desc {
+    max-width: 381px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+  }
+
+@media (min-width: 800px) {
+
+.slider__slide-desc {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%
+  }
+  }
+
+.slider__slide-img {
+    display: none;
+  }
+
+@media (min-width: 800px) {
+
+.slider__slide-img {
+      display: block;
+      position: absolute;
+      max-width: 100%;
+      top: 80px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      opacity: 0.1;
+      padding-bottom: 107px
+  }
+  }
+
+@media (min-width: 800px) {
+
+.slider__slide-img {
+      position: static;
+      display: block;
+      padding-bottom: 0;
+      margin-left: auto;
+      margin-right: 43px;
+      opacity: 1
+  }
+  }
+
+.slider__dl-links {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+@media (min-width: 800px) {
+
+.slider__dl-links {
+      text-align: left
+  }
+  }
+
+.slider__app-dl-btn {
+    font-size: 42px;
+    margin-right: 32px;
+    color: #010101;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+
+.slider__app-dl-btn:hover {
+      color: rgba(1,1,1, 0.4);
+    }
+
+.slider__app-dl-btn:last-child {
+      margin-right: 0;
+    }
+
+.slider__app-dl-btn span::before {
+        margin: 0;
+      }
 
 .subscribe {
   padding-top: 92px;

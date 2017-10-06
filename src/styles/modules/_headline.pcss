@@ -25,5 +25,26 @@
   &--grey {
     color: $grey;
   }
+
+  &--left {
+    @mixin atMedium {
+      text-align: left;
+    }
+  }
+
+  &--shrinked {
+    max-width: 309px
+  }
+
+  &--no-center {
+    @mixin atMedium {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &--smaller-b-margin {
+    margin-bottom: 22px;
+  }
 }
 
